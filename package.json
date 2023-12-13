@@ -1,0 +1,30 @@
+{
+  "name": "mete-deneme",
+  "version": "1.0.0",
+  "description": "Bu bir deneme projesidir.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mete": "echo 'merhaba ben mete!' ",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "metedeneme",
+    "denemepaket"
+  ],
+  "author": "mete",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.0.3",
+    "nodemailer": "^6.9.7",
+    "simple-is": "^0.2.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meobu/first.git"
+  }
+}
